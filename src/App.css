@@ -45,14 +45,6 @@ input{
   gap:20px;
 }
 
-.card{
-  width:250px;
-  background:white;
-  padding:20px;
-  border-radius:15px;
-  box-shadow:0 5px 15px rgba(0,0,0,0.1);
-}
-
 .dark .card{
   background:#2d2d2d;
 }
@@ -84,4 +76,25 @@ input{
 
 .card button:hover{
   opacity:0.9;
+}
+
+.card{
+  width: 280px;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+.card:hover{
+  transform: translateY(-8px);
+}
+
+.card img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
